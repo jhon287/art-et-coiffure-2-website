@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Art & Coiffure 2 — minimalist hair salon website with contact info, opening hours and prices."
+    />
+    <title>Art & Coiffure 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#home" class="brand" id="brandName">Art & Coiffure 2</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#hours">Hours</a>
+          <a href="#prices">Prices</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p class="eyebrow" id="tagline">Minimal hair salon experience</p>
+        <h1 id="salonName">Art & Coiffure 2</h1>
+        <p id="introText">
+          A calm, modern salon for men and women. Professional cuts and care in a welcoming atmosphere.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="callBtn" href="#">Call us</a>
+          <a class="btn btn-secondary" id="mapBtn" href="#" target="_blank" rel="noreferrer">Find us</a>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <h2>About</h2>
+        <p id="aboutText">
+          We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.
+        </p>
+      </section>
+
+      <section class="section container" id="hours">
+        <h2>Opening Hours</h2>
+        <div class="card">
+          <ul id="hoursList" class="hours-list"></ul>
+        </div>
+      </section>
+
+      <section class="section container" id="prices">
+        <h2>Prices</h2>
+        <div class="price-grid">
+          <article class="card">
+            <h3>Men</h3>
+            <ul id="pricesMen" class="price-list"></ul>
+          </article>
+          <article class="card">
+            <h3>Women</h3>
+            <ul id="pricesWomen" class="price-list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <h2>Contact</h2>
+        <div class="card contact-grid">
+          <p><strong>Address:</strong> <span id="contactAddress"></span></p>
+          <p><strong>Phone:</strong> <a id="contactPhone" href="#"></a></p>
+          <p><strong>Mobile:</strong> <a id="contactMobile" href="#"></a></p>
+          <p><strong>Email:</strong> <a id="contactEmail" href="#"></a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p id="footerText">© <span id="year"></span> Art & Coiffure 2</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

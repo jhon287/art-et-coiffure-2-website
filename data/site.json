@@ -1,0 +1,34 @@
+{
+  "name": "Art & Coiffure 2",
+  "tagline": "Minimal hair salon experience",
+  "intro": "A calm, modern salon for men and women. Professional cuts and care in a welcoming atmosphere.",
+  "about": "We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.",
+  "contact": {
+    "address": "123 Salon Street, 1000 Brussels, Belgium",
+    "phone": "+32 2 123 45 67",
+    "mobile": "+32 470 12 34 56",
+    "email": "hello@artetcoiffure2.be",
+    "mapUrl": "https://maps.google.com/?q=123+Salon+Street+Brussels"
+  },
+  "hours": [
+    { "day": "Monday", "hours": "Closed" },
+    { "day": "Tuesday", "hours": "09:00 - 18:00" },
+    { "day": "Wednesday", "hours": "09:00 - 18:00" },
+    { "day": "Thursday", "hours": "09:00 - 19:00" },
+    { "day": "Friday", "hours": "09:00 - 19:00" },
+    { "day": "Saturday", "hours": "08:30 - 16:00" },
+    { "day": "Sunday", "hours": "Closed" }
+  ],
+  "prices": {
+    "men": [
+      { "service": "Haircut", "price": "€22" },
+      { "service": "Haircut + Beard", "price": "€30" },
+      { "service": "Beard Trim", "price": "€14" }
+    ],
+    "women": [
+      { "service": "Cut + Blow-dry", "price": "€39" },
+      { "service": "Color", "price": "from €45" },
+      { "service": "Highlights", "price": "from €65" }
+    ]
+  }
+}

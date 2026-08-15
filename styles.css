@@ -46,12 +46,38 @@ body {
   justify-content: space-between;
   gap: 1rem;
   min-height: 4rem;
+  position: relative;
 }
 
 .brand {
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.language-switch a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.language-switch a.active {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .nav-links {

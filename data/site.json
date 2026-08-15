@@ -1,8 +1,5 @@
 {
   "name": "Art & Coiffure 2",
-  "tagline": "Minimal hair salon experience",
-  "intro": "A calm, modern salon for men and women. Professional cuts and care in a welcoming atmosphere.",
-  "about": "We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.",
   "contact": {
     "address": "123 Salon Street, 1000 Brussels, Belgium",
     "phone": "+32 2 123 45 67",
@@ -10,25 +7,156 @@
     "email": "hello@artetcoiffure2.be",
     "mapUrl": "https://maps.google.com/?q=123+Salon+Street+Brussels"
   },
-  "hours": [
-    { "day": "Monday", "hours": "Closed" },
-    { "day": "Tuesday", "hours": "09:00 - 18:00" },
-    { "day": "Wednesday", "hours": "09:00 - 18:00" },
-    { "day": "Thursday", "hours": "09:00 - 19:00" },
-    { "day": "Friday", "hours": "09:00 - 19:00" },
-    { "day": "Saturday", "hours": "08:30 - 16:00" },
-    { "day": "Sunday", "hours": "Closed" }
-  ],
-  "prices": {
-    "men": [
-      { "service": "Haircut", "price": "€22" },
-      { "service": "Haircut + Beard", "price": "€30" },
-      { "service": "Beard Trim", "price": "€14" }
-    ],
-    "women": [
-      { "service": "Cut + Blow-dry", "price": "€39" },
-      { "service": "Color", "price": "from €45" },
-      { "service": "Highlights", "price": "from €65" }
-    ]
+  "languages": {
+    "fr": {
+      "tagline": "Expérience coiffure minimaliste",
+      "intro": "Un salon calme et moderne pour femmes et hommes. Coupes et soins professionnels dans une atmosphère accueillante.",
+      "about": "Nous privilégions un service de qualité, un style propre et une expérience relaxante. Clients sans rendez-vous acceptés selon disponibilité.",
+      "nav": {
+        "about": "À propos",
+        "hours": "Horaires",
+        "prices": "Tarifs",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "À propos",
+        "hoursTitle": "Heures d'ouverture",
+        "pricesTitle": "Tarifs",
+        "pricesMenTitle": "Hommes",
+        "pricesWomenTitle": "Femmes",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Adresse",
+        "phone": "Téléphone",
+        "mobile": "Mobile",
+        "email": "Email"
+      },
+      "actions": {
+        "call": "Nous appeler",
+        "map": "Nous trouver"
+      },
+      "hours": [
+        { "day": "Lundi", "hours": "Fermé" },
+        { "day": "Mardi", "hours": "09:00 - 18:00" },
+        { "day": "Mercredi", "hours": "09:00 - 18:00" },
+        { "day": "Jeudi", "hours": "09:00 - 19:00" },
+        { "day": "Vendredi", "hours": "09:00 - 19:00" },
+        { "day": "Samedi", "hours": "08:30 - 16:00" },
+        { "day": "Dimanche", "hours": "Fermé" }
+      ],
+      "prices": {
+        "men": [
+          { "service": "Coupe", "price": "€22" },
+          { "service": "Coupe + Barbe", "price": "€30" },
+          { "service": "Taille de barbe", "price": "€14" }
+        ],
+        "women": [
+          { "service": "Coupe + Brushing", "price": "€39" },
+          { "service": "Coloration", "price": "à partir de €45" },
+          { "service": "Mèches", "price": "à partir de €65" }
+        ]
+      }
+    },
+    "nl": {
+      "tagline": "Minimalistische kapsalonervaring",
+      "intro": "Een rustige, moderne salon voor dames en heren. Professionele knipbeurten en verzorging in een gastvrije sfeer.",
+      "about": "Wij focussen op kwaliteitsservice, een nette stijl en een ontspannen ervaring. Zonder afspraak welkom indien mogelijk.",
+      "nav": {
+        "about": "Over",
+        "hours": "Openingsuren",
+        "prices": "Prijzen",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "Over",
+        "hoursTitle": "Openingsuren",
+        "pricesTitle": "Prijzen",
+        "pricesMenTitle": "Heren",
+        "pricesWomenTitle": "Dames",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Adres",
+        "phone": "Telefoon",
+        "mobile": "Mobiel",
+        "email": "E-mail"
+      },
+      "actions": {
+        "call": "Bel ons",
+        "map": "Vind ons"
+      },
+      "hours": [
+        { "day": "Maandag", "hours": "Gesloten" },
+        { "day": "Dinsdag", "hours": "09:00 - 18:00" },
+        { "day": "Woensdag", "hours": "09:00 - 18:00" },
+        { "day": "Donderdag", "hours": "09:00 - 19:00" },
+        { "day": "Vrijdag", "hours": "09:00 - 19:00" },
+        { "day": "Zaterdag", "hours": "08:30 - 16:00" },
+        { "day": "Zondag", "hours": "Gesloten" }
+      ],
+      "prices": {
+        "men": [
+          { "service": "Knippen", "price": "€22" },
+          { "service": "Knippen + Baard", "price": "€30" },
+          { "service": "Baard trimmen", "price": "€14" }
+        ],
+        "women": [
+          { "service": "Knippen + Brushen", "price": "€39" },
+          { "service": "Kleuring", "price": "vanaf €45" },
+          { "service": "Highlights", "price": "vanaf €65" }
+        ]
+      }
+    },
+    "en": {
+      "tagline": "Minimal hair salon experience",
+      "intro": "A calm, modern salon for men and women. Professional cuts and care in a welcoming atmosphere.",
+      "about": "We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.",
+      "nav": {
+        "about": "About",
+        "hours": "Hours",
+        "prices": "Prices",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "About",
+        "hoursTitle": "Opening Hours",
+        "pricesTitle": "Prices",
+        "pricesMenTitle": "Men",
+        "pricesWomenTitle": "Women",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Address",
+        "phone": "Phone",
+        "mobile": "Mobile",
+        "email": "Email"
+      },
+      "actions": {
+        "call": "Call us",
+        "map": "Find us"
+      },
+      "hours": [
+        { "day": "Monday", "hours": "Closed" },
+        { "day": "Tuesday", "hours": "09:00 - 18:00" },
+        { "day": "Wednesday", "hours": "09:00 - 18:00" },
+        { "day": "Thursday", "hours": "09:00 - 19:00" },
+        { "day": "Friday", "hours": "09:00 - 19:00" },
+        { "day": "Saturday", "hours": "08:30 - 16:00" },
+        { "day": "Sunday", "hours": "Closed" }
+      ],
+      "prices": {
+        "men": [
+          { "service": "Haircut", "price": "€22" },
+          { "service": "Haircut + Beard", "price": "€30" },
+          { "service": "Beard Trim", "price": "€14" }
+        ],
+        "women": [
+          { "service": "Cut + Blow-dry", "price": "€39" },
+          { "service": "Color", "price": "from €45" },
+          { "service": "Highlights", "price": "from €65" }
+        ]
+      }
+    }
   }
 }

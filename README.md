@@ -2,13 +2,22 @@
 
 Minimalist, lightweight, responsive hair salon website.
 
+## Multilingual support
+
+The site supports 3 languages with a header language switcher:
+- FR
+- NL
+- EN
+
+Current language is stored in URL (`?lang=fr|nl|en`) and local storage.
+
 ## Customisation
 
 Edit `data/site.json` to change:
-- salon name and text
 - contact details
-- opening hours
-- prices for men and women
+- translated labels and texts for each language
+- opening hours per language
+- prices for men and women per language
 
 ## Local preview
 

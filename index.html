@@ -20,12 +20,24 @@
     <header class="site-header">
       <div class="container nav">
         <a href="#home" class="brand" id="brandName">Art & Coiffure 2</a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+        <div class="header-actions">
+          <nav class="language-switch" aria-label="Language switcher">
+            <a href="#" data-lang="fr" id="langFr">FR</a>
+            <span aria-hidden="true">|</span>
+            <a href="#" data-lang="nl" id="langNl">NL</a>
+            <span aria-hidden="true">|</span>
+            <a href="#" data-lang="en" id="langEn">EN</a>
+          </nav>
+
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </div>
+
         <nav class="nav-links" id="navLinks">
-          <a href="#about">About</a>
-          <a href="#hours">Hours</a>
-          <a href="#prices">Prices</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" id="navAbout">About</a>
+          <a href="#hours" id="navHours">Hours</a>
+          <a href="#prices" id="navPrices">Prices</a>
+          <a href="#contact" id="navContact">Contact</a>
         </nav>
       </div>
     </header>
@@ -44,40 +56,40 @@
       </section>
 
       <section class="section container" id="about">
-        <h2>About</h2>
+        <h2 id="aboutTitle">About</h2>
         <p id="aboutText">
           We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.
         </p>
       </section>
 
       <section class="section container" id="hours">
-        <h2>Opening Hours</h2>
+        <h2 id="hoursTitle">Opening Hours</h2>
         <div class="card">
           <ul id="hoursList" class="hours-list"></ul>
         </div>
       </section>
 
       <section class="section container" id="prices">
-        <h2>Prices</h2>
+        <h2 id="pricesTitle">Prices</h2>
         <div class="price-grid">
           <article class="card">
-            <h3>Men</h3>
+            <h3 id="pricesMenTitle">Men</h3>
             <ul id="pricesMen" class="price-list"></ul>
           </article>
           <article class="card">
-            <h3>Women</h3>
+            <h3 id="pricesWomenTitle">Women</h3>
             <ul id="pricesWomen" class="price-list"></ul>
           </article>
         </div>
       </section>
 
       <section class="section container" id="contact">
-        <h2>Contact</h2>
+        <h2 id="contactTitle">Contact</h2>
         <div class="card contact-grid">
-          <p><strong>Address:</strong> <span id="contactAddress"></span></p>
-          <p><strong>Phone:</strong> <a id="contactPhone" href="#"></a></p>
-          <p><strong>Mobile:</strong> <a id="contactMobile" href="#"></a></p>
-          <p><strong>Email:</strong> <a id="contactEmail" href="#"></a></p>
+          <p><strong id="labelAddress">Address:</strong> <span id="contactAddress"></span></p>
+          <p><strong id="labelPhone">Phone:</strong> <a id="contactPhone" href="#"></a></p>
+          <p><strong id="labelMobile">Mobile:</strong> <a id="contactMobile" href="#"></a></p>
+          <p><strong id="labelEmail">Email:</strong> <a id="contactEmail" href="#"></a></p>
         </div>
       </section>
     </main>

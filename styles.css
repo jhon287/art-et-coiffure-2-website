@@ -53,6 +53,8 @@ body {
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
+  font-family: "Allura", cursive;
+  font-size: 2em;
 }
 
 .header-actions {
@@ -116,17 +118,18 @@ body {
   padding: 5rem 0 2.5rem;
 }
 
-.eyebrow {
-  margin: 0;
-  color: var(--muted);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-
 h1 {
   margin: 0.35rem 0 0.75rem;
   font-size: clamp(2rem, 5vw, 3.2rem);
   line-height: 1.1;
+}
+
+h1#salonName {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5em;
 }
 
 .hero p {
@@ -159,8 +162,14 @@ h1 {
   border-color: var(--line);
 }
 
+.btn-facebook {
+  background: #3B5998;
+  color: white;
+  border-color: var(--line);
+}
+
 .section {
-  padding: 1rem 0 2.5rem;
+  padding: 1rem 0;
 }
 
 h2 {
@@ -178,6 +187,10 @@ h3 {
   border-radius: var(--radius);
   padding: 1rem;
   box-shadow: var(--shadow);
+}
+
+article.card {
+  margin: 1rem 0;
 }
 
 .hours-list,
@@ -201,11 +214,11 @@ h3 {
   border-bottom: none;
 }
 
-.price-grid {
+/* .price-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
-}
+} */
 
 .contact-grid p {
   margin: 0.35rem 0;
@@ -219,6 +232,7 @@ h3 {
   border-top: 1px solid var(--line);
   padding: 1.25rem 0 2rem;
   color: var(--muted);
+  text-align: center;
 }
 
 @media (max-width: 760px) {
@@ -246,4 +260,18 @@ h3 {
   .price-grid {
     grid-template-columns: 1fr;
   }
+}
+
+div#pricesText {
+  font-size: 1em;
+}
+
+div#pricesText p {
+  margin: 0;
+  font-style: italic;
+}
+
+div#pricesText p#pricesText3 {
+  font-size: 0.9em;
+  font-weight: bold;
 }

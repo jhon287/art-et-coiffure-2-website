@@ -86,25 +86,32 @@ function applyData(data, language) {
   setText('brandName', data.name);
   setText('salonName', data.name);
 
-  setText('tagline', langData.tagline);
   setText('introText', langData.intro);
   setText('aboutText', langData.about);
 
+  const contactAddressHref =  data.contact.mapUrl ? data.contact.mapUrl : '#';
   const phoneHref = data.contact.phone ? `tel:${data.contact.phone.replace(/\s+/g, '')}` : '#';
   const mobileHref = data.contact.mobile ? `tel:${data.contact.mobile.replace(/\s+/g, '')}` : '#';
   const emailHref = data.contact.email ? `mailto:${data.contact.email}` : '#';
+  const facebookHref = data.contact.facebookUrl ? data.contact.facebookUrl : '#';
 
-  setText('contactAddress', data.contact.address);
+  setLink('contactAddress', contactAddressHref, data.contact.address);
   setLink('contactPhone', phoneHref, data.contact.phone);
   setLink('contactMobile', mobileHref, data.contact.mobile);
   setLink('contactEmail', emailHref, data.contact.email);
+  setLink('contactFacebook', facebookHref, "Art Et Coiffure 2");
 
   setLink('callBtn', phoneHref, langData.actions.call);
   setLink('mapBtn', data.contact.mapUrl, langData.actions.map);
+  setLink('facebookBtn', data.contact.facebookUrl, langData.actions.follow);
 
   renderList('hoursList', langData.hours, (entry) => `<span>${entry.day}</span><span>${entry.hours}</span>`);
   renderList('pricesMen', langData.prices.men, (entry) => `<span>${entry.service}</span><span>${entry.price}</span>`);
   renderList('pricesWomen', langData.prices.women, (entry) => `<span>${entry.service}</span><span>${entry.price}</span>`);
+
+  setText('pricesText1', langData.prices.text[0]);
+  setText('pricesText2', langData.prices.text[1]);
+  setText('pricesText3', langData.prices.text[2]);
 
   applyTranslations(langData);
   setText('footerText', `© ${new Date().getFullYear()} ${data.name}`);

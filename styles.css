@@ -72,6 +72,14 @@ body {
   color: var(--muted);
   text-decoration: none;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.language-switch a .flag {
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .language-switch a.active {

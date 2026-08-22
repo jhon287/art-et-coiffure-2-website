@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Art & Coiffure 2 — minimalist hair salon website with contact info, opening hours and prices."/>
+    <title>Art & Coiffure 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <nav class="nav-links" id="navLinks">
+          <a href="#about" id="navAbout">About</a>
+          <a href="#hours" id="navHours">Hours</a>
+          <a href="#prices" id="navPrices">Prices</a>
+          <a href="#contact" id="navContact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <h1 id="salonName">Art & Coiffure 2</h1>
+        <p id="introText">
+          A calm, modern salon for men and women. Professional cuts and care in a welcoming atmosphere.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="callBtn" href="#">Call us</a>
+          <a class="btn btn-secondary" id="mapBtn" href="#" target="_blank" rel="noreferrer">Find us</a>
+          <a class="btn btn-facebook" id="facebookBtn" href="#" target="_blank" rel="noreferrer">Follow us</a>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <h2 id="aboutTitle">About</h2>
+        <p id="aboutText">
+          We focus on quality service, clean style and a relaxing experience. Walk-ins welcome when possible.
+        </p>
+      </section>
+
+      <section class="section container" id="hours">
+        <h2 id="hoursTitle">Opening Hours</h2>
+        <div class="card">
+          <ul id="hoursList" class="hours-list"></ul>
+        </div>
+      </section>
+
+      <section class="section container" id="prices">
+        <h2 id="pricesTitle">Prices</h2>
+        <div class="price-grid">
+          <article class="card">
+            <h3 id="pricesWomenTitle">Women</h3>
+            <ul id="pricesWomen" class="price-list"></ul>
+          </article>
+          <article class="card">
+            <h3 id="pricesMenTitle">Men</h3>
+            <ul id="pricesMen" class="price-list"></ul>
+          </article>
+          <div id="pricesText">
+            <p id="pricesText1">My text 1 about prices</p>
+            <p id="pricesText2">My text 2 about prices</p>
+            <p id="pricesText3">My text 3 about prices</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <h2 id="contactTitle">Contact</h2>
+        <div class="card contact-grid">
+          <p><strong id="labelAddress">Address:</strong> <a id="contactAddress" href="#"></a></p>
+          <p><strong id="labelPhone">Phone:</strong> <a id="contactPhone" href="#"></a></p>
+          <p><strong id="labelMobile">Mobile:</strong> <a id="contactMobile" href="#"></a></p>
+          <p><strong id="labelEmail">Email:</strong> <a id="contactEmail" href="#"></a></p>
+          <p><strong id="labelFacebook">Facebook:</strong> <a id="contactFacebook" href="#"></a></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.751779363439!2d4.7161812!3d50.780174800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c16491924c7a3d%3A0xa48b21ae0736536a!2sArt%20%26%20Coiffure%202!5e0!3m2!1sen!2sbe!4v1787430149596!5m2!1sen!2sbe" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p id="footerText">© <span id="year"></span> Art & Coiffure 2</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

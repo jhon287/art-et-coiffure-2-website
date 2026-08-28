@@ -1,0 +1,191 @@
+{
+  "name": "Art & Coiffure 2",
+  "contact": {
+    "address": "11/2 chaussée de Louvain, 1320 Hamme-Mille",
+    "phone": "010/86.62.14",
+    "mobile": "0476/50.66.65",
+    "email": "artetcoiffure2@hotmail.com",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Art+Coiffure+2+Hamme-Mille",
+    "facebook": {
+      "url": "https://www.facebook.com/artetcoiffure2",
+      "text": "Art Et Coiffure 2"
+    },
+    "facebookUrl": "https://www.facebook.com/artetcoiffure2"
+  },
+  "languages": {
+    "fr": {
+      "tagline": "Le souci du travail bien fait!",
+      "intro": "Un salon calme et moderne pour femmes, hommes et enfants. Coupes et soins professionnels dans une atmosphère accueillante.",
+      "about": "Nous privilégions un service de qualité, un style propre et une expérience relaxante. Clients sans rendez-vous acceptés toute la journée selon disponibilité, avant 10h et après 16h uniquement sur rendez-vous.",
+      "nav": {
+        "about": "À propos",
+        "hours": "Horaires",
+        "prices": "Tarifs",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "À propos",
+        "hoursTitle": "Heures d'ouverture",
+        "pricesTitle": "Tarifs",
+        "pricesMenTitle": "Hommes",
+        "pricesWomenTitle": "Femmes",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Adresse",
+        "phone": "Téléphone",
+        "mobile": "Mobile",
+        "email": "Email"
+      },
+      "actions": {
+        "call": "Nous appeler",
+        "map": "Nous trouver",
+        "follow": "Nous suivre"
+      },
+      "hours": [
+        { "day": "Lundi", "hours": "Fermé" },
+        { "day": "Mardi", "hours": "08:30 - 18:30" },
+        { "day": "Mercredi", "hours": "08:30 - 18:30" },
+        { "day": "Jeudi", "hours": "08:30 - 18:30" },
+        { "day": "Vendredi", "hours": "08:00 - 18:30" },
+        { "day": "Samedi", "hours": "08:00 - 17:00" },
+        { "day": "Dimanche", "hours": "Fermé" }
+      ],
+      "prices": {
+        "women": [
+          { "service": "Shampooing, Brushing + Soin", "price": "30.00 € - 35.00 €" },
+          { "service": "Shampooing, Coupe, Brushing + Soin", "price": "35.00 € - 40.00 €" },
+          { "service": "Coupe Enfant (0-12 ans) + Soin", "price": "20.00 € - 35.00 €" },
+          { "service": "Shampooing, Coupe, Brushing + Coloration Ou Permanente Ou Contrast + Bio", "price": "85.00 € - 95.00 €" }
+        ],
+        "men": [
+          { "service": "Shampooing, Coupe, Brushing", "price": "27.00 €" },
+          { "service": "Taille De Barbe, Rasage", "price": "17.00 €" },
+          { "service": "Coupe Enfant (0-12 ans)", "price": "20.00 €" },
+          { "service": "Shampooing, Coupe, Brushing + Coloration Ou Permanente Ou Contrast", "price": "65.00€ - 75.00 €" }
+        ],
+        "text": [
+          "Nos prix sont équilibrés, ils sont affichés clairement sur la vitrine, simples à calculer, c'est sans surprise.",
+          "Art & Coiffure 2 c'est la qualité au meilleur prix.",
+          "Prix: taxes et service compris pouvant être modifiés en cours d'année."
+        ]
+      }
+    },
+    "nl": {
+      "tagline": "Minimalistische kapsalonervaring",
+      "intro": "Een rustige en moderne salon voor dames, heren en kinderen. Professionele knipbeurten en behandelingen in een gastvrije omgeving.",
+      "about": "Wij hechten veel waarde aan hoogwaardige service, een verzorgde stijl en een ontspannen ervaring. U kunt de hele dag zonder afspraak binnenlopen, afhankelijk van de beschikbaarheid; voor 10:00 uur en na 16:00 uur is een afspraak vereist.",
+      "nav": {
+        "about": "Over",
+        "hours": "Openingsuren",
+        "prices": "Prijzen",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "Over",
+        "hoursTitle": "Openingsuren",
+        "pricesTitle": "Prijzen",
+        "pricesMenTitle": "Heren",
+        "pricesWomenTitle": "Dames",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Adres",
+        "phone": "Telefoon",
+        "mobile": "Mobiel",
+        "email": "E-mail"
+      },
+      "actions": {
+        "call": "Bel ons",
+        "map": "Vind ons",
+        "follow": "Volg ons"
+      },
+      "hours": [
+        { "day": "Maandag", "hours": "Gesloten" },
+        { "day": "Dinsdag", "hours": "09:00 - 18:00" },
+        { "day": "Woensdag", "hours": "09:00 - 18:00" },
+        { "day": "Donderdag", "hours": "09:00 - 19:00" },
+        { "day": "Vrijdag", "hours": "09:00 - 19:00" },
+        { "day": "Zaterdag", "hours": "08:30 - 16:00" },
+        { "day": "Zondag", "hours": "Gesloten" }
+      ],
+      "prices": {
+        "women": [
+          { "service": "Shampoo, FöhnBehandlung + Haarverzorging", "price": "30.00 € - 35.00 €" },
+          { "service": "Shampoo, Kapsel, FöhnBehandlung + Haarverzorging", "price": "35.00 € - 40.00 €" },
+          { "service": "Kinderkapsel (0-12 jaar) + Haarverzorging", "price": "20.00 € - 35.00 €" },
+          { "service": "Shampoo, Kapsel, FöhnBehandlung + Haarkleuring of Permanent of Contrast + Bio", "price": "85.00 € - 95.00 €" }
+        ],
+        "men": [
+          { "service": "Shampoo, Kapsel, FöhnBehandlung", "price": "27.00 €" },
+          { "service": "Baard trimmen, Scheren", "price": "17.00 €" },
+          { "service": "Kinderkapsel (0-12 jaar)", "price": "20.00 €" },
+          { "service": "Shampoo, Kapsel, FöhnBehandlung + Haarkleuring of Permanent of Contrast", "price": "65.00€ - 75.00 €" }
+        ],
+        "text": [
+          "Geen enkele prijs is evenwichtig, het is helder op de vitrine, eenvoudigweg een rekenmachine, het is zonder verrassing.", 
+          "Art & Coiffure 2 is de kwaliteit van de beste prijs.", 
+          "Prix: belastingen en diensten omvatten veel wijzigingen tijdens de jaarwisseling."
+        ]
+      }
+    },
+    "en": {
+      "tagline": "Minimal hair salon experience",
+      "intro": "A calm and modern salon for women, men and children. Professional haircuts and treatments in a welcoming atmosphere.",
+      "about": "We prioritize quality service, a clean style, and a relaxing experience. Walk-ins are welcome throughout the day, subject to availability; before 10:00 AM and after 4:00 PM, appointments are required.",
+      "nav": {
+        "about": "About",
+        "hours": "Hours",
+        "prices": "Prices",
+        "contact": "Contact"
+      },
+      "sections": {
+        "aboutTitle": "About",
+        "hoursTitle": "Opening Hours",
+        "pricesTitle": "Prices",
+        "pricesMenTitle": "Men",
+        "pricesWomenTitle": "Women",
+        "contactTitle": "Contact"
+      },
+      "labels": {
+        "address": "Address",
+        "phone": "Phone",
+        "mobile": "Mobile",
+        "email": "Email"
+      },
+      "actions": {
+        "call": "Call us",
+        "map": "Find us",
+        "follow": "Follow us"
+      },
+      "hours": [
+        { "day": "Monday", "hours": "Closed" },
+        { "day": "Tuesday", "hours": "09:00 - 18:00" },
+        { "day": "Wednesday", "hours": "09:00 - 18:00" },
+        { "day": "Thursday", "hours": "09:00 - 19:00" },
+        { "day": "Friday", "hours": "09:00 - 19:00" },
+        { "day": "Saturday", "hours": "08:30 - 16:00" },
+        { "day": "Sunday", "hours": "Closed" }
+      ],
+      "prices": {
+        "women": [
+          { "service": "Shampooing, Brushing + Hair Care", "price": "30.00 € - 35.00 €" },
+          { "service": "Shampooing, Haircut, Brushing + Hair Care", "price": "35.00 € - 40.00 €" },
+          { "service": "Children's Haircut (0-12 years) + Hair Care", "price": "20.00 € - 35.00 €" },
+          { "service": "Shampooing, Haircut, Brushing + Coloring or Perm or Contrast + Organic", "price": "85.00 € - 95.00 €" }
+        ],
+        "men": [
+          { "service": "Shampooing, Haircut, Brushing", "price": "27.00 €" },
+          { "service": "Beard Trim, Shaving", "price": "17.00 €" },
+          { "service": "Children's Haircut (0-12 years)", "price": "20.00 €" },
+          { "service": "Shampooing, Haircut, Brushing + Coloring or Perm or Contrast", "price": "65.00€ - 75.00 €" }
+        ],
+        "text": [
+          "Our prices are balanced, clearly displayed on the window, easy to calculate, it's no surprise.",
+          "Art & Coiffure 2 offers quality at the best price.",
+          "Prices include taxes and service and are subject to change throughout the year."
+        ]
+      }
+    }
+  }
+}

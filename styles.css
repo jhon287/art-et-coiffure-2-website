@@ -224,6 +224,13 @@ article.card {
   border-bottom: none;
 }
 
+.hours-list li.is-current-day {
+  background: color-mix(in srgb, var(--accent), #fff 92%);
+  border-radius: 10px;
+  padding-inline: 0.75rem;
+  font-weight: 700;
+}
+
 .contact-grid p {
   margin: 0.35rem 0;
 }

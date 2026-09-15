@@ -31,6 +31,37 @@ function renderList(id, entries, formatter) {
   });
 }
 
+function getCurrentOpeningDayIndex() {
+  const day = new Date().getDay();
+  return day === 0 ? 6 : day - 1;
+}
+
+function renderHoursList(entries) {
+  const list = document.getElementById('hoursList');
+  if (!list) return;
+
+  const currentDayIndex = getCurrentOpeningDayIndex();
+  list.innerHTML = '';
+
+  entries.forEach((entry, index) => {
+    const li = document.createElement('li');
+    const day = document.createElement('span');
+    const hours = document.createElement('span');
+    const isCurrentDay = index === currentDayIndex;
+
+    day.textContent = entry.day;
+    hours.textContent = entry.hours;
+
+    if (isCurrentDay) {
+      li.classList.add('is-current-day');
+      li.setAttribute('aria-current', 'date');
+    }
+
+    li.append(day, hours);
+    list.appendChild(li);
+  });
+}
+
 function updateLanguageLinks(activeLanguage) {
   document.querySelectorAll('.language-switch a[data-lang]').forEach((link) => {
     const isActive = link.dataset.lang === activeLanguage;
@@ -107,7 +138,7 @@ function applyData(data, language) {
   setLink('mapBtn', data.contact.mapUrl, langData.actions.map);
   setLink('facebookBtn', facebookHref, langData.actions.follow);
 
-  renderList('hoursList', langData.hours, (entry) => `<span>${entry.day}</span><span>${entry.hours}</span>`);
+  renderHoursList(langData.hours);
   renderList('pricesMen', langData.prices.men, (entry) => `<span>${entry.service}</span><span>${entry.price}</span>`);
   renderList('pricesWomen', langData.prices.women, (entry) => `<span>${entry.service}</span><span>${entry.price}</span>`);
 
